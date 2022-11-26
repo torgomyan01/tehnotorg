@@ -1,0 +1,112 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none !important;
+  outline: none;
+  box-sizing: border-box;
+  font-style: normal;
+}
+
+@media (max-width: 1024px) {
+  html {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 992px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 12px;
+  }
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+  border-radius: 0.3125rem; }
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #ffff; }
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(195, 195, 195, 0.68);
+  border-radius: 0.625rem; }
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #abaaaa; }
+
+
+.def-btn{
+  background: linear-gradient(180deg, rgba(114, 181, 201, 0.5) 7.29%, rgba(55, 163, 211, 0.7576) 26.56%, #0092DC 100%);
+  font-size: 20px !important;
+  line-height: 25px !important;
+  color: #000000 !important;
+  transition: 0.3s !important;
+  border: 0 !important;
+}
+
+.def-btn:hover{
+  color: #fff !important;
+}
+
+.bgc-grey-gradient{
+  background: linear-gradient(104.88deg, rgba(217, 217, 217, 0.5) -33.42%, rgba(217, 217, 217, 0.3) 130.49%);
+}
+
+.c-blue{
+  color: #0076B4;
+}
+
+.c-white{
+  color: #fff;
+}
+
+.c-red{
+  color: red;
+}
+
+.c-green{
+  color: #02ad02;
+}
+
+.c-black{
+  color: #0c0c0c;
+}
+
+.cursor-pointer{
+  cursor: pointer;
+}
+
+@media (max-width: 576px){
+  .def-btn{
+    font-size: 15px !important;
+  }
+}
+
+@media (max-width: 425px){
+  .def-btn{
+    font-size: 12px !important;
+  }
+}

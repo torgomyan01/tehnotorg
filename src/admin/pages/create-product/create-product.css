@@ -1,0 +1,49 @@
+.remove-image{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 25px;
+    height: 25px;
+    background: #ffffff85;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    color: #000000;
+    transition: 0.3s;
+    box-shadow: 0 0 5px #959595;
+    backdrop-filter: blur(5px);
+}
+
+.remove-image:hover{
+    box-shadow: 0 0 10px #959595;
+}
+.plus-table{
+    position: absolute;
+    left: 50%;
+    top: -10px;
+    transform: translateX(-50%);
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    box-shadow: 0 0 5px #bbb;
+    background: transparent;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    color: #1976d2;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.plus-table:hover{
+    transform: translateX(-50%) scale(1.1);
+}
+
+.carousel-indicators [data-bs-target]{
+    background: #000;
+}

@@ -1,0 +1,30 @@
+.login-block{
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    padding: 20px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-shadow: 0 7px 12px rgba(0, 0, 0, 0.8);
+    margin: 15rem auto;
+    position: relative;
+}
+.login-block-content{
+    padding: 20px;
+}
+
+.close{
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    cursor: pointer;
+}
+
+@media (max-width: 576px){
+    .login-block{
+        margin: 3rem auto;
+    }
+    .logo img{
+        width: 50px;
+    }
+}

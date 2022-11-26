@@ -1,0 +1,13 @@
+.home-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: calc(100vh - 13.125rem);
+}
+
+@media (max-width: 768px) {
+    .home-content{
+        height: calc(100vh - 19.125rem);
+    }
+}
